@@ -6,55 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Erasmus Coders</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
 
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar glyphicon glyphicon-menu-hamburger" style="font-size: 30px"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">LOGO</a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar" aria-expanded="false">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span><span class="sr-only">(current)</span></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
+        </div><!-- end of navbar-collapse -->
       </div><!--end of container-->
     </nav>
 
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="jumbotron">
-              <div class="container">
-                <img scr="img/business-1839876_1920.jpg">
-                <h1 class="Welcome to Erasmus Coders"></h1>
-                <p class="lead">...where Erasmus students showcase the projects they've made</p>
-              </div>
-            </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <h1 class="display-3">Ready to code?</h1>
+            <p class="lead">...where Erasmus students come to code.</p>
           </div>
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
       </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12" id="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in elit venenatis est auctor posuere. Proin vehicula convallis lacus sit amet auctor. Nulla pulvinar neque et dignissim viverra. Nunc id odio quam. Quisque viverra cursus sodales. Fusce in cursus risus, nec ullamcorper diam. Vestibulum porttitor urna id justo faucibus, ultricies varius orci dapibus. Sed vulputate leo vel justo maximus tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum iaculis diam, eleifend ornare justo lacinia non. Aliquam tempus molestie fringilla.</p>
+          </div>
+        </div>
+        <div class="row blue-row">
+          <div class="col-sm-12 col-md-8">description</div>
+          <div class="col-sm-12 col-md-4">photo</div>
+        </div>
+        <div class="row"></div>
+      <div>
     </main>
+
     <footer>
-
+      <div class="footer container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Erasmus Coders &#9400; 2017</p>
+          </div>
+        </div>
+      </div>
     </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>

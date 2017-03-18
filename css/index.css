@@ -1,0 +1,50 @@
+
+/*** nav ***/
+
+.nav>li>a {
+  color: black;
+  font-size: 1.5em;
+  padding: 20px 35px;
+  background-color:
+}
+
+.nav>li>a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*** jumbotron ***/
+
+.jumbotron {
+    position: relative;
+    background: #ffff4d url("coder.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+/*** about ***/
+
+#about h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+#about p {
+
+}
+
+/*** footer ***/
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.blue-row {
+  height: 400px;
+  background-color: #337ab7;
+}
